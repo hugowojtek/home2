@@ -26,7 +26,7 @@ public class JavaTest {
     }
     public static void ShowStack() {
         Iterator iterator = stack.iterator();
-        System.out.print("---");
+        System.out.println("---");
         while (iterator.hasNext()){
             //if (tab[i]!=null) {
             System.out.print(iterator.next());
